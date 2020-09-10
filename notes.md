@@ -8,3 +8,8 @@ First: [Redux Dev Tools](https://github.com/zalmoxisus/redux-devtools-extension)
 - A design pattern
 - A predictable state container for JS applications
 - Manages and updates application state using events called ‘actions’
+
+## Redux Flow
+
+```action => reducer => updated state```
+
