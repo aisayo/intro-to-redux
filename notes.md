@@ -26,12 +26,14 @@ First: [Redux Dev Tools](https://github.com/zalmoxisus/redux-devtools-extension)
 - Makes state changes predictable
 - Helps avoid a web of state and props for large scale applications
 - Does not care about position of component in the component tree. Meaning all components have access to the state
+- Helps give each component the exact state it wants
+- Avoids unnecessary re-rendering if components do not rely on updated state
 
 ## How to use Redux
 
 - `npm install redux`
 
-
+## When to use Redux?
 
 ## Fundamental building blocks of Redux
 
