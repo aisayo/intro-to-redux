@@ -35,10 +35,21 @@ First: [Redux Dev Tools](https://github.com/zalmoxisus/redux-devtools-extension)
 
 ## When to use Redux?
 
+- Not all React applications will need Redux!
+
 ## Fundamental building blocks of Redux
 
 - Store
   - It is an object
   - Only one store exists per JS application
+  - Holds all of applications state
   - Gatekeeper for access and alterations to state
   - Provided methods `getState()` & `dispatch()`
+
+  - Create a store
+    1. Make sure that Redux is installed
+    2. ```import { createStore } from "redux";``` in `index.js` file
+    3. `createStore` takes in a reducer as first argument
+
+- Reducer
+  - A JavaScript function 
