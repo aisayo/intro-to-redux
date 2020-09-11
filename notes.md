@@ -53,7 +53,17 @@ First: [Redux Dev Tools](https://github.com/zalmoxisus/redux-devtools-extension)
 
 - Reducer
   - A JavaScript function
+  - Similar to reducer function: takes in a number of values and reduces it to one value
   - Takes in two parameters: current state & action
   - Must be a pure function
   - Produces the state of an application
-  - 
+  - Defined as a switch/case statement
+  - Never mutates state
+
+- Actions
+  - a JavaScript object with two properties: type & payload
+  ```{type: 'A_STRING', payload: data}```
+  - Type is required, should be a string and drives how data will change
+  - Payload describes what should change
+  - Actions are wrapped by a function, called `Action Creators`
+  
