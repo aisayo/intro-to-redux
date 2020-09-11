@@ -52,4 +52,8 @@ First: [Redux Dev Tools](https://github.com/zalmoxisus/redux-devtools-extension)
     3. `createStore` takes in a reducer as first argument
 
 - Reducer
-  - A JavaScript function 
+  - A JavaScript function
+  - Takes in two parameters: current state & action
+  - Must be a pure function
+  - Produces the state of an application
+  - 
