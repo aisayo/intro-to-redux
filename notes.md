@@ -9,6 +9,10 @@ First: [Redux Dev Tools](https://github.com/zalmoxisus/redux-devtools-extension)
 - A predictable state container for JS applications
 - Manages and updates application state using events called ‘actions’
 
+## Redux Focus
+
+- State: what is state?
+
 ### Redux Flow
 
 ```action => reducer => updated state```
@@ -22,3 +26,17 @@ First: [Redux Dev Tools](https://github.com/zalmoxisus/redux-devtools-extension)
 - Makes state changes predictable
 - Helps avoid a web of state and props for large scale applications
 - Does not care about position of component in the component tree. Meaning all components have access to the state
+
+## How to use Redux
+
+- `npm install redux`
+
+
+
+## Fundamental building blocks of Redux
+
+- Store
+  - It is an object
+  - Only one store exists per JS application
+  - Gatekeeper for access and alterations to state
+  - Provided methods `getState()` & `dispatch()`
