@@ -40,7 +40,7 @@ First: [Redux Dev Tools](https://github.com/zalmoxisus/redux-devtools-extension)
 ## Fundamental building blocks of Redux
 
 - Store
-  - It is an object
+  - An object
   - Only one store exists per JS application
   - Holds all of applications state
   - Gatekeeper for access and alterations to state
@@ -75,9 +75,15 @@ First: [Redux Dev Tools](https://github.com/zalmoxisus/redux-devtools-extension)
   - A high order component from the react-redux library
   - Provider will wrap the React application and make it aware of the Redux store
 
-  - Connect
-    - Connects react component with redux store
-    - Takes in at least one argument
+- Connect
+  - Connects react component with redux store
+  - Takes in at least one argument
+
+- Thunk
+  - A middleware that looks at every action that passes through the system, and if it’s a function, it calls that function
+
+- Compose
+  - "Compose is used when you want to pass multiple store enhancers to the store. Store enhancers are higher order functions that add some extra functionality to the store. The only store enhancer which is supplied with Redux by default is applyMiddleware however many other are available."
 
 ## Resources
 
@@ -85,3 +91,4 @@ First: [Redux Dev Tools](https://github.com/zalmoxisus/redux-devtools-extension)
 - [Switch Statement](https://www.w3schools.com/js/js_switch.asp)
 - [Redux Docs](https://redux.js.org/)
 - [Redux Cheatsheet](https://devhints.io/redux)
+- [Compose](https://redux.js.org/api/compose)
