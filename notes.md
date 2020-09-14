@@ -29,7 +29,7 @@ First: [Redux Dev Tools](https://github.com/zalmoxisus/redux-devtools-extension)
 - Helps give each component the exact state it wants
 - Avoids unnecessary re-rendering if components do not rely on updated state
 
-## How to use Redux
+## Using Redux
 
 - `npm install redux`
 
@@ -53,7 +53,7 @@ First: [Redux Dev Tools](https://github.com/zalmoxisus/redux-devtools-extension)
 
 - Reducer
   - A JavaScript function
-  - Similar to reducer function: takes in a number of values and reduces it to one value
+  - Similar to reducer function: takes in a number of arguments and reduces it to one value
   - Takes in two parameters: current state & action
   - Must be a pure function
   - Produces the state of an application
@@ -67,3 +67,18 @@ First: [Redux Dev Tools](https://github.com/zalmoxisus/redux-devtools-extension)
   - Payload describes what should change
   - Actions are wrapped by a function, called `Action Creators`
   
+## Connecting Redux with React
+  
+- Need to install React-Redux library: `npm install react-redux`
+
+- Provider
+  - A high order component from the react-redux library
+  - Provider will wrap the React application and make it aware of the Redux store
+
+  - Connect
+    - Connects react component with redux store
+    - Takes in at least one argument
+
+## Resources
+
+- [React Redux](https://www.npmjs.com/package/react-redux)
