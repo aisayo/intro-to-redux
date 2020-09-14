@@ -82,3 +82,6 @@ First: [Redux Dev Tools](https://github.com/zalmoxisus/redux-devtools-extension)
 ## Resources
 
 - [React Redux](https://www.npmjs.com/package/react-redux)
+- [Switch Statement](https://www.w3schools.com/js/js_switch.asp)
+- [Redux Docs](https://redux.js.org/)
+- [Redux Cheatsheet](https://devhints.io/redux)
