@@ -4,7 +4,6 @@ import { Provider } from 'react-redux'
 import ReactDOM from 'react-dom'
 
 import rootReducer from './rootReducer'
-import addStudent from './actions'
 import App from './App'
 
 const store = createStore(
