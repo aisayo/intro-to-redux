@@ -86,6 +86,12 @@ First: [Redux Dev Tools](https://github.com/zalmoxisus/redux-devtools-extension)
 - Compose
   - "Compose is used when you want to pass multiple store enhancers to the store. Store enhancers are higher order functions that add some extra functionality to the store. The only store enhancer which is supplied with Redux by default is applyMiddleware however many other are available."
 
+- mapStateToProps()
+  - a function
+  - receives store state as an argument
+  - returns an object with properties
+  - Properties created in return are accessed in component as props
+
 ## Resources
 
 - [React Redux](https://www.npmjs.com/package/react-redux)
