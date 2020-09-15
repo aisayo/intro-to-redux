@@ -1,7 +1,6 @@
- export default function addStudent(student){
+export default function addStudent(student){
     return {
         type: 'ADD_STUDENT',
         payload: student
     }
 }
-

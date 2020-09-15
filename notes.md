@@ -36,6 +36,7 @@ First: [Redux Dev Tools](https://github.com/zalmoxisus/redux-devtools-extension)
 ## When to use Redux?
 
 - Not all React applications will need Redux!
+- Redux is its own library, can be used with other frontend technologies
 
 ## Fundamental building blocks of Redux
 
@@ -92,3 +93,5 @@ First: [Redux Dev Tools](https://github.com/zalmoxisus/redux-devtools-extension)
 - [Redux Docs](https://redux.js.org/)
 - [Redux Cheatsheet](https://devhints.io/redux)
 - [Compose](https://redux.js.org/api/compose)
+- [Combine Reducer](https://redux.js.org/api/combinereducers)
+- [mapStateToProps](https://react-redux.js.org/using-react-redux/connect-mapstate)
